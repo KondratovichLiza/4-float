@@ -1,0 +1,120 @@
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            body {
+                background-image: url(../images/grape.png);
+                background-position: top right;
+                background-repeat: no-repeat;
+                background-color: #FFFAF3;
+            }
+            
+            .container {
+                max-width: 1080px;
+                margin: auto;
+            }
+            
+            header {
+                max-width: 470px;
+                border-bottom: 1px #C08D5D solid;
+                padding: 43px 0 42px 0;
+            }
+            
+            .logo,
+            nav {
+                display: inline-block;
+                vertical-align: middle;
+            }
+            
+            nav a {
+                text-decoration: none;
+                color: #000;
+                font-family: Open Sans;
+                padding-right: 55px;
+            }
+            
+            .logo {
+                width: 38.64px;
+                height: 59px;
+                margin-right: 83.36px;
+            }
+            
+            .active {
+                color: #C08D5D;
+            }
+            
+            main {
+                margin: 122px 0 68.6px 0;
+            }
+            
+            h1 {
+                font-family: 'Yeseva One';
+                font-weight: 400;
+                font-size: 70px;
+                line-height: 81px;
+                letter-spacing: 0.06em;
+                color: #3F4042;
+            }
+            
+            span {
+                font-size: 50px;
+                line-height: 58px;
+                display: block;
+            }
+            
+            p {
+                max-width: 535px;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 27px;
+                letter-spacing: 00.06em;
+                color: #3F4042;
+                margin: 80px 0 72px 0;
+            }
+            
+            h1 span::after {
+                content: url(../images/logo.svg);
+                display: inline-block;
+                vertical-align: middle;
+                width: 45.21px;
+                height: 69.04px;
+            }
+            
+            h1::after {
+                content: url(../images/vector.svg);
+                display: block;
+                width: 165px;
+                height: 9.03px;
+            }
+            
+            .link {
+                display: inline-block;
+                color: #3F4042;
+                text-decoration: none;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 20px;
+                border: 2px solid #C08D5D;
+                padding-left: 15px;
+                line-height: 63px;
+            }
+            
+            .link::after {
+                content: url(../images/vector-button.svg);
+                display: inline-block;
+                width: 61px;
+                height: 63px;
+                background-color: #C08D5D;
+                line-height: 63px;
+                text-align: center;
+                margin-left: 11px;
+            }
+            
+            .mouse {
+                display: block;
+                text-align: center;
+                padding-top: 63px;
+            }
